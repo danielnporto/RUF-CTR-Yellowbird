@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" media="only screen and (min-width: 750px)" href="/styles/style-pc.css">
+    <link rel="shortcut icon" href="/images/rufIco.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>RUF Automobile - CTR YellowBird</title> 
+</head>
+<body>
+    
+    <header>
+
+        <div class="off-screen-menu">
+            <ul>
+                <li class="menuOptions">
+                    <a href="#top" class="menuOptions">Home</a>
+                </li>
+                <li class="menuOptions">
+                    <a href="#about" class="menuOptions">About</a>
+                </li>
+                <li class="menuOptions">
+                    <a href="#gallery" class="menuOptions">Gallery</a>
+                </li>
+                <li class="menuOptions">
+                    <a href="#history" class="menuOptions">History</a>
+                </li>
+                <li class="menuOptions">
+                    <a href="#specs" class="menuOptions">Specs</a>
+                </li>
+                <li class="menuOptions">
+                    <a href="#support" class="menuOptions">Support</a>
+                </li>
+            </ul>
+        </div>
+
+        <nav>
+            <div class="rufIcon">
+                <a href="#top">
+                    <img src="/images/logoRuf_semfundo.png" alt="Porsche Icon">
+                </a>
+            </div>
+
+            <div class="ham-menu">           
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            
+        <div class="pcMenu">
+
+                <div class="pcMenuOptions">
+                    <a href="#top" class="pcMenuOptions">Home</a>
+                </div>
+                <div class="pcMenuOptions">
+                    <a href="#about" class="pcMenuOptions">About</a>
+                </div>
+                <div class="pcMenuOptions">
+                    <a href="#gallery" class="pcMenuOptions">Gallery</a>
+                </div>
+                <div class="pcMenuOptions">    
+                    <a href="#history" class="pcMenuOptions">History</a>
+                </div>
+                <div class="pcMenuOptions">
+                    <a href="#specs" class="pcMenuOptions">Specs</a>
+                </div>
+                <div class="pcMenuOptions">    
+                    <a href="#support" class="pcMenuOptions">Support</a>
+                </div>
+
+        </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="backGroundVideo">
+
+            <video id="player" autoplay loop class="bg_video mobileVideo" muted>
+                <source src="/videos/bg_video.mp4" type="video/mp4">
+            </video>
+            
+            <video id="player2" autoplay loop class="bg_video2 pcVideo" muted>
+                <source src="/videos/definitivePc.mp4" type="video/mp4">
+            </video>
+            
+            <div class="buttonVideo">
+                <button id="muteButton">
+                    <i class="fa-solid fa-volume-xmark mute"></i>
+                    <i class="fa-solid fa-volume-high unmute hidden"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <div id="about" class="boxTitle">
+            <div class="title">
+                <h1>RUF CTR YellowBird</h1>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="boxAbout">
+
+                <div class="aboutTitle">
+                    <h1>About the CTR YellowBird A. E.</h1>
+                </div>
+                
+                <div class="aboutText">
+                    <span>
+                        In 2017, 30 years after the original CTR made its appearance,
+                        RUF announced its spiritual successor at the Geneva International
+                        Motor Show. While it looked similar to its 1987 counterpart, the new 
+                        CTR is very much a car built for the modern era.
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="boxAbout">
+                <div class="aboutTitle">
+                    <h2>Mechanics</h2>
+                </div>
+                <div class="aboutText">
+                    <span id="gallery">
+                        A flat-six is deployed at the rear. The 3.6-litre motor is paired with 
+                        two turbochargers, with the new CTR making peak figures of 710hp, but with
+                        a staggering 649ft/lbs at just 2,750rpm. Their target top speed is 360km/h
+                        (225mph), all of which will be achieved with rear wheel drive, a limited
+                        slip differential and a manual six-speed with three pedals.
+                    </span>
+                </div>
+                <div class="tst">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="galleryTitle">
+                <h1>Take a look: </h1>
+            </div>
+
+            <div class="slider">
+                <div class="slides">
+                    <img class="slide" src="./images/ruf_ctr_058.jpg" alt="RufYellowBirdImage">
+                    <img class="slide" src="./images/ruf_ctr_051.jpg" alt="RufYellowBirdImage">
+                    <img class="slide" src="./images/ruf_ctr_053.jpg" alt="RufYellowBirdImage">
+                    <img class="slide" src="./images/ruf_ctr_054.jpg" alt="RufYellowBirdImage">
+                    <img class="slide" src="./images/ruf_ctr_056.jpg" alt="RufYellowBirdImage">
+                    <img class="slide" src="./images/ruf_ctr_057.jpg" alt="RufYellowBirdImage">
+                    <img class="slide" src="./images/ruf_ctr_050.jpg" alt="RufYellowBirdImage">
+                    <img class="slide" src="./images/Engine.png" alt="RufYellowBirdImage">
+                    <img class="slide" src="./images/Front.png" alt="RufYellowBirdImage">
+                    <img class="slide" src="./images/Front2.png" alt="RufYellowBirdImage">
+                </div>
+                <button id="active" class="prev" onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
+            </div>
+            <div class="galleryText">
+                <span>Images from <a target="_blank" href="https://www.carmagazine.co.uk/car-reviews/ruf/ctr-yellow-bird/">carmagazine</a></span>
+            </div>
+        </div>
+
+        <div id="history"  class="history">
+            <div class="historyTitle">
+                <h1>History</h1>
+            </div>
+            <div class="historyText">
+                <span class="text1">
+                    The CTR (abbreviation of "Group C Turbo Ruf") was based on the 1987 911 Carrera 3.2.
+                    Factory body panels including the doors, hood and engine cover were replaced with 
+                    aluminum pieces, helping to reduce an additional 200 kg (441 lb) of weight as 
+                    compared to the vehicle's factory curb weight.
+                </span>
+                <h2>The first CTR specs</h2>
+                <span class="text2">
+                    Ruf chose to use a new five-speed transmission of their own design on the CTR, 
+                    which also gave them full freedom to customise gear ratios. An upgraded suspension 
+                    system, 17 inch Ruf Speedline alloy wheels, 330 mm (13.0 in) diameter Brembo braking 
+                    system, and Dunlop's Denloc system performance tyres were used.
+                </span>
+
+                <div class="historyImg">
+                    <img src="/images/firstCtrEngine.png" alt="">
+                </div>   
+
+                <h2>Commercialization</h2>
+                <span>
+                    The company debuted 
+                    the vehicle at the end of 1987 with pricing set at US$142,900 (approx US$362,000 in
+                    2024), although that number could vary depending on whether a given customer ordered
+                    it directly from Ruf or brought in a car purchased via dealer for conversion. 
+                    Ruf manufactured only 29 cars from chassis bought from Porsche; about 20-30 cars were 
+                    built from customers
+                </span>
+                <h2>Faszination on the Nürburgring</h2>
+                <span>
+                    It’s a perfect juncture into the most famous car video ever filmed—a video whose ruf 
+                    has transcended not only generations, but even physical format, premiering first on VHS and then immortalized on YouTube.
+                </span>
+                <h2 class="ytTitle">The legendary video: </h2>
+                <div class="youtubeFrame">
+                    <iframe width="100%" height="100%" src= "https://www.youtube.com/embed/OSMCfPASImQ?si=MQ1WIB4nF5oq94U4?vq=medium" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="specs" id="specs">
+                <div class="specsTitle">
+                    <h1>Specs of the car</h1>
+                </div>
+
+                <div class="featuredSpecs">
+                    <div class="spec 1">
+                        <h3>360 km/h</h3>
+                        <s>Top speed</s>
+                    </div>
+                    <div class="spec 2">
+                        <h3>710 hp</h3>
+                        <s>At 6,750 rpm</s>
+                    </div>
+                    <div class="spec 3">
+                        <h3>880 Nm</h3>
+                        <s>At 2750 rpm</s>
+                    </div>
+                    <div class="spec 4">
+                        <h3>1250 KG</h3>
+                        <s>Weight</s>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>    
+
+            <div class="specsDouble">   
+
+                <div class="imageSpecs">
+                    <img src="/images/pic01.jpg" alt="rufCtr" class="imageSpecs">
+                </div>
+
+                <div class="completeSpecs">
+                    <div class="completeSpec">
+                        <s>Maximum power:</s>
+                        <h3>710 hp / 522 kW at 6,750 rpm</h3>
+                    </div>
+                    <div class="completeSpec">
+                        <s>Max. Torque:</s>
+                        <h3>880 Nm at 2,750 - 4,000 rpm</h3>
+                    </div>
+                    <div class="completeSpec">
+                        <s>Displacement:</s>
+                        <h3>3600 cm³</h3>
+                    </div>
+                    <div class="completeSpec">
+                        <s>Transmission:</s>
+                        <h3>7-speed manual gearbox</h3>
+                    </div>
+                    <div class="completeSpec">
+                        <s>Top-speed:</s>
+                        <h3>360 km/h /223 mph</h3>
+                    </div>
+                    <div class="completeSpec">
+                        <s>Fuel-consumption:</s>
+                        <h3>Urban: 18,9 l/100 km<br>
+                            Non-Urban: 9,8 l/100 km<br>
+                            Combined: 12,8 l/100 km</h3>
+                    </div>
+                    <div class="completeSpec">
+                        <s>CO2-Emissions:</s>
+                        <h3>305,7 g/km</h3>
+                    </div>
+                    <div class="completeSpec">
+                        <s>Efficiency-class:</s>
+                        <h3>G</h3>
+                    </div>
+                </div>
+            
+            </div>    
+
+        <div class="CTRparts">
+            <div class="partsTitle">
+                <h2>CTR Anniversary</h2>
+                <s>in individual parts</s>
+            </div>
+            <div class="youtubeFrame">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qWURevYcf9U?si=D_QS_wwKBVFExsaV?vq=medium" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footerTop">
+            <div class="footerLinks">
+                <div class="footerLinksTest">
+                    <h3><a href="">Terms and Conditions</a></h3>
+                    <h3><a href="">Imprint</a></h3>
+                    <h3><a href="">Privacy</a></h3>
+                    <h3><a href="">Contact</a></h3>
+                    <h3><a href="">Rescue Cards</a></h3>
+                    <h3><a href="">Cookies Settings</a></h3>
+                </div>
+            </div>
+
+            <div class="footerTextTop">
+                    <h3>RUF Automobile GmbH</h3>
+                    <s>Mindelheimer Straße 91<br>
+                    E-87772 Pfaffenhausen</s>
+            </div>    
+
+            <div class="footerTextBottom">
+                    <s>Phone:  +99 8765/987 987<br>
+                    Fax:  +99 8765/987 987<br>
+                    E-Mail:  info@fake-ruf-automobile.de<br></s>
+            </div>
+
+        </div>
+        
+        <div class="footerLimit">
+            <div class="footerBottom">
+                    <div class="footerBottomText">
+                        <h4>ⓒ 2024 - Daniel Navarro Porto</h4>
+                    </div>
+                    <div class="footerBottomIcons">
+                        <div class="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="face">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="yt">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div class="x">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </div>
+                    </div>
+            </div>
+        </div>
+            
+    </footer>
+
+    <script src="../scripts/jscript.js"></script> 
+</body>
+</html>

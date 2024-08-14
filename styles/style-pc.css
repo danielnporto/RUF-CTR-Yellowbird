@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+html
+{
+    background-color: rgb(255, 255, 255);
+    position: static;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header
+{
+    position: static;
+    margin: 0 auto;
+}
+
+nav
+{
+    margin: 0 auto;
+    width: 95%;
+}
+
+main
+{
+    margin: 0 auto;
+}
+
+.mobileVideo
+{
+    display: none;
+}
+
+.backGroundVideo
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bg_video2
+{
+    margin: 0 auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.buttonVideo button
+{
+    width: 5%;
+    height: 12%;
+    bottom: 37px;
+    right: 57px;
+}
+
+.rufIcon a img
+{
+    width: 6.5rem;
+}
+
+.off-screen-menu
+{
+    display: none;
+}
+
+.ham-menu
+{
+    display: none;
+}
+
+.pcMenu
+{
+    display: flex;
+}
+
+.pcMenu a
+{
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    font-size: 1vw;
+}
+
+.pcMenuOptions
+{
+    padding: 6px;
+    font-weight: 500;
+}
+
+.pcMenuOptions a
+{
+    letter-spacing: 3.8px;
+}
+
+.boxTitle
+{
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: -120px;
+    width: 55%;
+    height: 20vh;
+}
+
+.boxTitle h1
+{
+    font-size: 350%;
+}
+
+.about
+{
+    margin: 0 auto;
+    background-color: black;
+    width: 65%;
+}
+
+.boxAbout
+{
+    padding: 40px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.aboutImage img
+{
+    width: 22%;
+}
+
+.aboutTitle
+{
+    padding-left: 56px;
+    padding-top: 20px;
+    font-size: 180%;
+}
+
+.aboutText
+{
+    font-size: 180%;
+    padding: 16px 56px 16px 56px;
+}
+
+.gallery
+{
+    margin: 80px auto;
+    width: 80%;
+}
+
+.galleryTitle
+{
+    font-size: 180%;
+    padding: 50px 90px 70px 90px;
+}
+
+.galleryText
+{
+    margin-top: 20px;
+}
+
+.slider
+{
+    width: 70%;
+}
+
+.slider button
+{
+    padding: 60px 62px;
+    font-size: 7vh;
+}
+
+.gallery
+{
+    padding-bottom: 70px;
+}
+
+.galleryTitle
+{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.galleryText
+{
+    font-size: 110%;
+    padding-top: 25px
+}
+
+.history
+{
+    margin: 0 auto;
+    width: 65%;
+}
+
+.historyTitle
+{
+    padding-left: 90px;
+    padding-top: 20px;
+    font-size: 170%;
+}
+
+.historyText
+{
+    font-size: 160%;
+    padding: 26px 90px 26px 90px;
+}
+
+.historyImg
+{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 65%;
+}
+
+.historyImg img
+{
+    margin: 0 auto;
+    padding: 60px 5px 5px 0px;
+    width: 93%;
+}
+
+.youtubeFrame
+{
+    width: 45vw;
+    height: 27vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.specsTitle
+{
+    font-size: 180%;
+    padding: 50px 50px 60px 50px;
+}
+
+.spec
+{
+    font-size: 140%;
+    padding-bottom: 60px;
+}
+
+.specsDouble
+{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.imageSpecs
+{
+    width: 42vw;
+    height: 55vh;
+    min-height: 560px;
+}
+
+.completeSpecs
+{
+    width: 58vw;
+    padding: 50px 70px;
+    height: 55vh;
+    min-height: 560px;
+}
+
+.completeSpec
+{
+    display: flex;
+}
+
+.completeSpec s
+{
+    width: 200px;
+}
+
+.completeSpec h3
+{
+    margin-left: 100px;
+}
+
+.CTRparts
+{
+    margin: 0 auto;
+    width: 65%;
+    padding-bottom: 130px;
+}
+
+.partsTitle
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 210%;
+}
+
+.footerTop
+{
+    width: 65%;
+    font-size: 120%;
+    margin: 0 auto;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerLinks
+{
+    width: 110%;
+}
+
+.footerTextTop
+{
+    margin: 0 auto;
+    padding-top: 110px;
+}
+
+.footerTextBottom
+{
+    margin: 0 auto;
+    padding-top: 110px;
+}
+
+.footerLimit
+{
+    background-color: black;
+}
+
+.footerBottom
+{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.footerBottomText
+{
+    padding: 30px 10px;
+    font-size: 130%;
+}
+
+.footerBottomIcons
+{
+    width: 35vw;
+    justify-content: space-evenly;
+    font-size: 170%;
+}
